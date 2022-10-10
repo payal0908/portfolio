@@ -39,7 +39,7 @@ const About = () => {
         </h1>
         <div className='px-0 md:px-10'>
             <p className='text-base text-[12px] sm:text-md md:text-lg text-white dark:text-white'>
-                Hi, I am Payal and I enjoy programming and developing. I haven been programming ever since I took up computer science in middle school in 2012. Over the years I have expanded on my skills and developed various Web and mobile applications. Scroll down below to check out some of my skills!
+                Hi, I am Payal and I enjoy programming and developing. I have been programming ever since I took up computer science in middle school in 2012. Over the years I have expanded on my skills and developed various Web and mobile applications. Scroll down below to check out some of my skills!
             </p>
         </div>
     </motion.div>
