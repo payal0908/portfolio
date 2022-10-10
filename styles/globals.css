@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -15,12 +19,17 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+@font-face {
+  font-family: 'burtons';
+  src: url("../public/Burtons.otf");
+}
+
+canvas {
+  height: 300px;
+}
+
+@layer components {
+  .hero-btn {
+    @apply px-3 py-2 border-[#0b0b0b] rounded-full uppercase text-xs md:text-sm tracking-widest text-white transition-all hover:border-gray-500 hover:text-gray-500
   }
 }
