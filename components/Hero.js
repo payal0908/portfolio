@@ -47,16 +47,16 @@ function emailButton() {
         transition={{duration: 1.5}}
         >
           <Link href="#about">
-            <button className='hero-btn'>About</button>
+            <button className='hero-btn-light dark:hero-btn-dark'>About</button>
           </Link>
           <Link href="#skills">
-            <button className='hero-btn'>Skills</button>
+            <button className='hero-btn-light dark:hero-btn-dark'>Skills</button>
           </Link>
           <Link href="#workexp">
-            <button className='hero-btn'>Experience</button>
+            <button className='hero-btn-light dark:hero-btn-dark'>Experience</button>
           </Link>
           <Link href="#projects">
-            <button className='hero-btn'>Projects</button>
+            <button className='hero-btn-light dark:hero-btn-dark'>Projects</button>
           </Link>
         </motion.div>
     </div>

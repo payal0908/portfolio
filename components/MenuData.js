@@ -1,12 +1,12 @@
 import { Menu } from "antd";
 
 export const menu = (
-  <Menu
+  <Menu style={{borderRadius: 12, textAlign: 'center', backgroundColor: "#"}}
     items={[
       {
         key: '1',
         label: (
-          <a href="#hero">
+          <a className="text-xs sm:text-sm tracking-widest uppercase" href="#hero">
             Home
           </a>
         ),
@@ -14,7 +14,7 @@ export const menu = (
       {
         key: '2',
         label: (
-          <a href="#about">
+          <a className="text-xs sm:text-sm tracking-widest uppercase" href="#about">
             About
           </a>
         ),
@@ -22,7 +22,7 @@ export const menu = (
       {
         key: '3',
         label: (
-          <a href="#skills">
+          <a className="text-xs sm:text-sm tracking-widest uppercase" href="#skills">
             Skills
           </a>
         ),
@@ -30,7 +30,7 @@ export const menu = (
       {
         key: '4',
         label: (
-          <a href="#workexp">
+          <a className="text-xs sm:text-sm tracking-widest uppercase" href="#workexp">
             Experience
           </a>
         ),
@@ -39,7 +39,7 @@ export const menu = (
       {
         key: '5',
         label: (
-          <a href="#projects">
+          <a className="text-xs sm:text-sm tracking-widest uppercase" href="#projects">
             Projects
           </a>
         ),

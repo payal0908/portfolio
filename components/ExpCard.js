@@ -21,8 +21,6 @@ const ExpCard = ({name, logo, position, summary, year, skills}) => {
             whileInView={{opacity:1, y:0}}
             viewport={{once:true}}
             className='w-20 h-20 sm:w-32 sm:h-32 rounded-full xl:w-[150px] xl:h-[150px] object-contain object-center'
-            // src='/logo.png'
-            // src='ss.png'
             src={logo}
         />
         <div className='px-0 md:px-10 flex flex-col text-center mt-5'>

@@ -6,7 +6,6 @@ import { data } from './data/skilldata'
 
 const Skills = () => {
     const [expandedDay, setCollapsedDay] = useState();
-    const days = ['Python', 'Java', 'Django', 'ReactJs', 'C++', 'Javascript', 'React Native', 'NodeJs', 'NextJs', 'SQL'];
     
   return (
     <motion.div 
